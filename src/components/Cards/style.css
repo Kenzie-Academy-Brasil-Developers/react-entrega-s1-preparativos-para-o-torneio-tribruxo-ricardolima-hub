@@ -1,0 +1,38 @@
+img {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.Gryffindor {
+    border: 2px solid red;
+}
+
+.Slytherin {
+    border: 2px solid green;
+}
+
+.Hufflepuff {
+    border: 2px solid yellow;
+
+}
+
+.Ravenclaw {
+    border: 2px solid rgb(12, 103, 206);
+}
+
+.Gryffindor-p {
+    color: red;
+}
+
+.Slytherin-p {
+    color: green;;
+}
+
+.Hufflepuff-p {
+    color: yellow;
+}
+
+.Ravenclaw-p {
+    color: rgb(12, 103, 206);
+}
