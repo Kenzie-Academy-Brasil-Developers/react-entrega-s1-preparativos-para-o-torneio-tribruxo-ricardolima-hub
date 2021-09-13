@@ -9,7 +9,7 @@ function Students ({filteredSorceres, handleFilter}) {
                     <Cards item={item} index={index} />
                 ))}
             </div>
-            <button onClick={handleFilter}>Tentar novamente</button>
+            <button className="againButton" onClick={handleFilter}>Tentar novamente</button>
         </>
     )
 }

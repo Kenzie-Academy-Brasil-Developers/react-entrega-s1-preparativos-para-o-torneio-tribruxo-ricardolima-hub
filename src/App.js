@@ -10,7 +10,7 @@ function App() {
   const [filteredSorceres, setFilteredSorceres] = useState([])
 
   useEffect(() => {
-    fetch("http://hp-api.herokuapp.com/api/characters/students")
+    fetch("https://hp-api.herokuapp.com/api/characters/students")
     .then((resp) => resp.json())
     .then((resp) => setStudents(resp))
     .catch((err) => console.log(err));
